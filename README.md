@@ -7,14 +7,16 @@ index.html
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Garflix - Home</title>
+  <title>Garfeild - Home</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body bgcolor="orange">
+<body bgcolor="Orange">
 
   <center>
-    <h1>Garflix</h1>
+    <h1>Garfield</h1>
     <p>The #1 streaming site for one lazy orange cat.</p>
+    <p> Garfield has two big movies and two big TV series and several other smaller movies and series. 
+    Garfield was first created in 1978.</p>
   </center>
 
   <hr>
@@ -67,15 +69,83 @@ index.html
 
     </tr>
   </table>
+ 
+  <table>
+    <!--Garfield Show Top 10 Characters-->
+   <tr>
+    <th>Name</th>
+    <th>CreatureType</th>
+    <th>Importance</th>
+    </tr>
+    <tr>
+    <th>Garfield</th>
+    <th>Cat</th>
+      <th>1</th>
+    </tr>
+    <tr>
+    <th>Odie</th>
+      <th>dog</th>
+      <th>2</th>
+      <tr>
+        <th>Jon Arbuckle</th>
+        <th>Human</th>
+        <th>3</th>
+      </tr>
+    <tr>
+<th>Nermal</th>
+      <th>cat</th>
+      <th>4</th>
+    </tr>
+    <tr>
+      <th>Arlene</th>
+      <th>cat</th>
+      <th>5</th>
+    </tr>
+    <tr>
+      <th>Dr.Liz</th>
+      <th>human</th>
+      <th>6</th>
+    </tr>  
+    <tr>
+      <th>Drusilla</th>
+      <th>human</th>
+      <th>7</th>
+    </tr>
+    <tr>
+      <th>Minerva</th>
+      <th>human</th>
+      <th>8</th>
+    </tr>
+    <tr>
+      <th>Squeak</th>
+      <th>Mouse</th>
+      <th>9</th>
+    </tr>
+    <tr>
+      <th>Aunt Ivy</th>
+      <th>human</th>
+      <th>10</th>
+    </tr>
+  </table> 
+
+<img src"https://www.bing.com/images/search?view=detailV2&ccid=ah4dDM32&id=C10DD096C0A70E84E38CB54056566192D169D457&thid=OIP.ah4dDM32m7ZZ776OyDoFFAHaEK&mediaurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FA5nQiMY7Hgg%2Fmaxresdefault.jpg&cdnurl=https%3A%2F%2Fth.bing.com%2Fth%2Fid%2FR.6a1e1d0ccdf69bb659efbe8ec83a0514%3Frik%3DV9Rp0ZJhVlZAtQ%26pid%3DImgRaw%26r%3D0&exph=720&expw=1280&q=garfield+and+friends+&FORM=IRPRST&ck=A11B33833067AF5AB7512B4A7C40779F&selectedIndex=16&itb=0&cw=1721&ch=853&mode=overlay">
+
+
+
 
   <hr>
 
   <footer>
     <center>
       <p>
+       <a href="https://github.com/Johnathan-GIS" target="_blank">My GitHub Profile</a> 
+        |
         <a href="https://github.com/your-username" target="_blank">My GitHub Profile</a>
         |
+        <a href="https://github.com/Johnathan-GIS/Johnathan-Ballards-alfa-dev-project/edit/main/README.md"> target="_blank">Ballard's Code</a>
+        |
         <a href="https://github.com/your-username/your-repo" target="_blank">Source Code</a>
+        
       </p>
     </center>
   </footer>
@@ -86,7 +156,7 @@ index.html
 style.css (not plural)
 
 body {
-  background-color: orange;
+  background-color: yellow;
   font-family: Comic Sans MS, cursive, sans-serif;
 }
 
@@ -95,7 +165,7 @@ h1 {
 }
 
 table {
-  background-color: white;
+  background-color: grey;
 }
 
 // old school reminder that JS is hooked up
@@ -109,18 +179,39 @@ var characters = [
   'Arlene'
 ];
 
+// Additional Garfield Characters
+alert('Other Garfield Characters!');
+var characters = [
+'Dr.Liz',
+'Minerva',
+'Squeak',
+'Aunt Ivy',
+'Dr. Wipple',
+]
+
+
 // picks a random character line from the array and logs it
+<Garflix is live/>
 function greetRandomCharacter() {
   var pick = characters[Math.floor(Math.random() * characters.length)];
   console.log('Your daily Garfield character is ' + pick);
   return pick;
 }
+// list of items
+Primary list = ['Garfield', 'Odie', 'Jon', 'Nermal', 'Arlene']
+selected_item_1 = random.choice(Primary_list)
+Secondary list = ['Dr. Liz', 'Minerva', 'Squeak', 'Aunt Ivy', 'Dr. Wipple]
+// random selection
+selected_item_2 = random.choice(Secondary_list)
+print(selected_item_1 and selected_item_2)
 
 // defensive: only run once the DOM is actually ready
 document.addEventListener('DOMContentLoaded', function () {
   console.log('Garflix loaded! Try calling greetRandomCharacter() in the console.');
   greetRandomCharacter();
 });
-  <script src="assets/js/script.js"></script>
-</body>
-</html>
+
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('Other Garfeild Characters! Try calling greetRandomCharacter() in the console.');
+  greetRandomCharacter();
+  
