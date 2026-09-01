@@ -189,7 +189,7 @@ var characters = [
 'Aunt Ivy',
 'Dr. Wipple',
 ]
-
+ 
 
 // picks a random character line from the array and logs it
 <Garflix is live/>
